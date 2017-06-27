@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180D18B11F01E7E900794B0B /* NSobject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D18B01F01E7E900794B0B /* NSobject+Model.m */; };
+		18153E601EFCFE7E00C1F940 /* UIButton+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18153E5F1EFCFE7E00C1F940 /* UIButton+ClickBlock.m */; };
+		18153E681EFD17B700C1F940 /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 18153E671EFD17B700C1F940 /* cat.m */; };
+		18153E6B1F00F36300C1F940 /* ViewController+login.m in Sources */ = {isa = PBXBuildFile; fileRef = 18153E6A1F00F36300C1F940 /* ViewController+login.m */; };
+		18153E701F011A6000C1F940 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18153E6F1F011A6000C1F940 /* MyModel.m */; };
 		188636E61EF3726E00462F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188636E51EF3726E00462F4F /* main.m */; };
 		188636E91EF3726E00462F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188636E81EF3726E00462F4F /* AppDelegate.m */; };
 		188636EC1EF3726E00462F4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188636EB1EF3726E00462F4F /* ViewController.m */; };
@@ -16,6 +21,7 @@
 		188636F71EF3726E00462F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188636F51EF3726E00462F4F /* LaunchScreen.storyboard */; };
 		188637021EF3726E00462F4F /* runTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188637011EF3726E00462F4F /* runTimeTestTests.m */; };
 		1886370D1EF3726E00462F4F /* runTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886370C1EF3726E00462F4F /* runTimeTestUITests.m */; };
+		1886371D1EF372C500462F4F /* testClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886371C1EF372C500462F4F /* testClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180D18AF1F01E7E900794B0B /* NSobject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSobject+Model.h"; sourceTree = "<group>"; };
+		180D18B01F01E7E900794B0B /* NSobject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSobject+Model.m"; sourceTree = "<group>"; };
+		18153E5E1EFCFE7E00C1F940 /* UIButton+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+ClickBlock.h"; path = "../UIButton+ClickBlock.h"; sourceTree = "<group>"; };
+		18153E5F1EFCFE7E00C1F940 /* UIButton+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ClickBlock.m"; path = "../UIButton+ClickBlock.m"; sourceTree = "<group>"; };
+		18153E661EFD17B700C1F940 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		18153E671EFD17B700C1F940 /* cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
+		18153E691F00F36300C1F940 /* ViewController+login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+login.h"; sourceTree = "<group>"; };
+		18153E6A1F00F36300C1F940 /* ViewController+login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+login.m"; sourceTree = "<group>"; };
+		18153E6E1F011A6000C1F940 /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		18153E6F1F011A6000C1F940 /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
 		188636E11EF3726E00462F4F /* runTimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runTimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188636E51EF3726E00462F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188636E71EF3726E00462F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +69,8 @@
 		188637081EF3726E00462F4F /* runTimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runTimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1886370C1EF3726E00462F4F /* runTimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runTimeTestUITests.m; sourceTree = "<group>"; };
 		1886370E1EF3726E00462F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1886371B1EF372C500462F4F /* testClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testClass.h; sourceTree = "<group>"; };
+		1886371C1EF372C500462F4F /* testClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18153E611EFD00D200C1F940 /* Category应用 */ = {
+			isa = PBXGroup;
+			children = (
+				18153E5E1EFCFE7E00C1F940 /* UIButton+ClickBlock.h */,
+				18153E5F1EFCFE7E00C1F940 /* UIButton+ClickBlock.m */,
+			);
+			path = "Category应用";
+			sourceTree = "<group>";
+		};
+		18153E621EFD017700C1F940 /* 方法操作 */ = {
+			isa = PBXGroup;
+			children = (
+				18153E661EFD17B700C1F940 /* cat.h */,
+				18153E671EFD17B700C1F940 /* cat.m */,
+				18153E691F00F36300C1F940 /* ViewController+login.h */,
+				18153E6A1F00F36300C1F940 /* ViewController+login.m */,
+			);
+			path = "方法操作";
+			sourceTree = "<group>";
+		};
+		18153E6C1F011A0000C1F940 /* 解归档 */ = {
+			isa = PBXGroup;
+			children = (
+				18153E6E1F011A6000C1F940 /* MyModel.h */,
+				18153E6F1F011A6000C1F940 /* MyModel.m */,
+			);
+			path = "解归档";
+			sourceTree = "<group>";
+		};
+		18153E6D1F011A2900C1F940 /* 字典与模型 */ = {
+			isa = PBXGroup;
+			children = (
+				180D18AF1F01E7E900794B0B /* NSobject+Model.h */,
+				180D18B01F01E7E900794B0B /* NSobject+Model.m */,
+			);
+			path = "字典与模型";
+			sourceTree = "<group>";
+		};
 		188636D81EF3726E00462F4F = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +159,11 @@
 		188636E31EF3726E00462F4F /* runTimeTest */ = {
 			isa = PBXGroup;
 			children = (
+				18153E6D1F011A2900C1F940 /* 字典与模型 */,
+				18153E6C1F011A0000C1F940 /* 解归档 */,
+				18153E611EFD00D200C1F940 /* Category应用 */,
+				18153E621EFD017700C1F940 /* 方法操作 */,
+				1886371A1EF3729B00462F4F /* TestClass */,
 				188636E71EF3726E00462F4F /* AppDelegate.h */,
 				188636E81EF3726E00462F4F /* AppDelegate.m */,
 				188636EA1EF3726E00462F4F /* ViewController.h */,
@@ -141,6 +202,15 @@
 				1886370E1EF3726E00462F4F /* Info.plist */,
 			);
 			path = runTimeTestUITests;
+			sourceTree = "<group>";
+		};
+		1886371A1EF3729B00462F4F /* TestClass */ = {
+			isa = PBXGroup;
+			children = (
+				1886371B1EF372C500462F4F /* testClass.h */,
+				1886371C1EF372C500462F4F /* testClass.m */,
+			);
+			path = TestClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +349,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18153E681EFD17B700C1F940 /* cat.m in Sources */,
+				180D18B11F01E7E900794B0B /* NSobject+Model.m in Sources */,
 				188636F21EF3726E00462F4F /* runTimeTest.xcdatamodeld in Sources */,
+				18153E701F011A6000C1F940 /* MyModel.m in Sources */,
 				188636EC1EF3726E00462F4F /* ViewController.m in Sources */,
+				18153E601EFCFE7E00C1F940 /* UIButton+ClickBlock.m in Sources */,
+				18153E6B1F00F36300C1F940 /* ViewController+login.m in Sources */,
 				188636E91EF3726E00462F4F /* AppDelegate.m in Sources */,
 				188636E61EF3726E00462F4F /* main.m in Sources */,
+				1886371D1EF372C500462F4F /* testClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +598,7 @@
 				188637131EF3726E00462F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188637141EF3726E00462F4F /* Build configuration list for PBXNativeTarget "runTimeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +607,7 @@
 				188637161EF3726E00462F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188637171EF3726E00462F4F /* Build configuration list for PBXNativeTarget "runTimeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +616,7 @@
 				188637191EF3726E00462F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
